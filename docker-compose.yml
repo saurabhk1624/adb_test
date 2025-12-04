@@ -3,7 +3,7 @@ services:
   api:
     build: .
     container_name: api
-    command: bash -c "cd /src/rest && python manage.py runserver 0.0.0.0:8000"
+    command: bash -c "cd /src/rest && pip install celery && python manage.py runserver 0.0.0.0:8000"
     ports:
       - "8000:8000"
     links:
