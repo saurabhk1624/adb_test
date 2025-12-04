@@ -1,0 +1,34 @@
+# dependencies
+src/app/node_modules
+src/app/.pnp
+src/app/.pnp.js
+
+# testing
+src/app/coverage
+
+# production
+src/app/build
+
+# misc
+src/app/.DS_Store
+src/app/.env.local
+src/app/.env.development.local
+src/app/.env.test.local
+src/app/.env.production.local
+
+src/app/npm-debug.log*
+src/app/yarn-debug.log*
+src/app/yarn-error.log*
+
+src/app/.eslintcache
+# README.md
+db
+tmp
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+.vscode/
